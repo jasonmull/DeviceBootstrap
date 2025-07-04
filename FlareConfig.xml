@@ -118,5 +118,8 @@
         <custom-item name="Install Volatility3">
             <cmd value="choco install volatility3" />
         </custom-item>
+        <custom-item name="Install Volatility3">
+            <cmd value="choco install visualstudio2022community" />
+        </custom-item>
     </custom-items>
 </config>
