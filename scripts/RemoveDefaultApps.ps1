@@ -39,8 +39,6 @@ $applicationList = @(
 	"Microsoft.XboxIdentityProvider"
 	"Microsoft.XboxGameOverlay"
 	"Microsoft.XboxGamingOverlay"
-	"Microsoft.ZuneMusic"
-	"Microsoft.ZuneVideo"
 	"Microsoft.NetworkSpeedTest"
 	"Microsoft.FreshPaint"
 	"Microsoft.Print3D"
