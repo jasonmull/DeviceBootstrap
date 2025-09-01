@@ -1,3 +1,3 @@
 #--- Browsers ---
-choco install -y googlechrome
-choco install -y firefox-dev
+choco install googlechrome
+choco install firefox-dev
