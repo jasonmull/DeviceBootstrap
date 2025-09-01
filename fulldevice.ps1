@@ -28,6 +28,9 @@ $wallpaper_file = "C:\Users\Public\Pictures\lsu.jpg"
 $web_dl.DownloadFile($wallpaper_url, $wallpaper_file)
 reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "C:\Users\Public\Pictures\lsu.jpg" /f
 reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v WallpaperStyle /t REG_DWORD /d "6" /f 
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v HideIcons /t REG_DWORD /d 1 /f
+Stop-Process -Name explorer -Force
+Start-Process explorer
 
 #--- reenabling critial items ---
 Enable-UAC
