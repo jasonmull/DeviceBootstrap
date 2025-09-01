@@ -19,7 +19,7 @@ executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
 executeScript "CommonDevTools.ps1";
 executeScript "CommonDesktopTools.ps1";
-executeScript "CommonBrowsers.ps1;
+executeScript "CommonBrowsers.ps1";
 
 # Set a wallpaper : 
 write-host "Setting a nice wallpaper"
