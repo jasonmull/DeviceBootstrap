@@ -4,14 +4,7 @@
 Disable-UAC
 
 # Get the base URI path from the ScriptToCall value
-$bstrappackage = "-bootstrapPackage"
-$helperUri = $Boxstarter['ScriptToCall']
-$strpos = $helperUri.IndexOf($bstrappackage)
-$helperUri = $helperUri.Substring($strpos + $bstrappackage.Length)
-$helperUri = $helperUri.TrimStart("'", " ")
-$helperUri = $helperUri.TrimEnd("'", " ")
-$helperUri = $helperUri.Substring(0, $helperUri.LastIndexOf("/"))
-$helperUri += "/scripts"
+$helperUri = "https://raw.githubusercontent.com/jasonmull/DeviceBootstrap/refs/heads/main/scripts"
 write-host "helper script base URI is $helperUri"
 
 function executeScript {
