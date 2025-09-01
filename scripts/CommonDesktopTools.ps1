@@ -7,4 +7,4 @@ choco install streamdeck
 choco install wavelink
 choco install elgato-camerahub
 choco install wireguard
-choco insgall snagit
+choco install snagit
