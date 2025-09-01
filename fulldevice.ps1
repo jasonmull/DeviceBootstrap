@@ -27,7 +27,7 @@ $web_dl = new-object System.Net.WebClient
 $wallpaper_url = "https://www.lsu.edu/communications/images/zoom-backgrounds/lsu-7193-tiger-stadium-sunset.jpg"
 $wallpaper_file = "C:\Users\Public\Pictures\lsu.jpg"
 $web_dl.DownloadFile($wallpaper_url, $wallpaper_file)
-reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "C:\Users\Public\Pictures\lsu.jpb" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "C:\Users\Public\Pictures\lsu.jpg" /f
 reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v WallpaperStyle /t REG_DWORD /d "6" /f 
 
 #--- reenabling critial items ---
