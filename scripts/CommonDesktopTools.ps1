@@ -7,3 +7,4 @@ choco install elgato-camerahub
 choco install wireguard
 choco install snagit
 choco install claude
+choco install discord
